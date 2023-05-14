@@ -1,4 +1,5 @@
 
+
 {
     "version": 2,
     "builds": [
@@ -9,9 +10,9 @@
     },
     {
     "src": "build_files.sh",
-    "use": "@vercel/static-build",
+    "use": "@vercel/assets",
     "config": {
-    "distDir": "staticfiles_build"
+    "distDir": "assets"
      }
     }
     ],
@@ -26,4 +27,6 @@
     }
     ]
     }
+
+
 
